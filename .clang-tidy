@@ -1,0 +1,24 @@
+Checks: '-*,
+cppcoreguidelines-*,
+performance-*,
+modernize-*,
+readability-*,
+bugprone-*,
+misc-*,
+cert-*,
+-modernize-avoid-c-arrays,
+-modernize-use-trailing-return-type,
+-readability-braces-around-statements,
+-readability-magic-numbers,
+-cppcoreguidelines-pro-bounds-pointer-arithmetic,
+-cppcoreguidelines-pro-bounds-array-to-pointer-decay,
+-cppcoreguidelines-avoid-c-arrays,
+-cppcoreguidelines-avoid-magic-numbers,
+-cppcoreguidelines-non-private-member-variables-in-classes,
+-misc-non-private-member-variables-in-classes
+'
+
+WarningsAsErrors: ''
+HeaderFilterRegex: '(src|tests|include|test).*'
+FormatStyle:     none
+CheckOptions:  

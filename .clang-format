@@ -1,0 +1,30 @@
+---
+Language:        Cpp
+BasedOnStyle:  WebKit
+AlignTrailingComments: true
+AllowShortLoopsOnASingleLine: true
+BraceWrapping:
+  AfterCaseLabel:  true
+  AfterClass:      true
+  AfterControlStatement: MultiLine
+  AfterEnum:       true
+  AfterFunction:   true
+  AfterNamespace:  false
+  AfterObjCDeclaration: false
+  AfterStruct:     true
+  AfterUnion:      true
+  AfterExternBlock: false
+  BeforeCatch:     false
+  BeforeElse:      false
+  BeforeLambdaBody: false
+  BeforeWhile:     false
+  IndentBraces:    false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: true
+  SplitEmptyNamespace: true
+BreakBeforeBraces: Custom # changed
+BreakConstructorInitializers: BeforeColon
+FixNamespaceComments: true
+IncludeIsMainRegex: '(_test)?$'
+IndentGotoLabels: false
+IndentPPDirectives: AfterHash
